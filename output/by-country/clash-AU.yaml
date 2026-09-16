@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 82.198.246.250
+  server: 82.198.246.97
   port: 180
   udp: true
   type: vmess
@@ -26,7 +26,7 @@ proxies:
   port: 20270
   udp: true
   type: vless
-  uuid: fee2c73a-d527-4b3f-9d48-0631168d83e8
+  uuid: 7647b321-4bfe-43f3-b21f-926c5de8f9b6
   flow: xtls-rprx-vision
   tls: true
   reality-opts:

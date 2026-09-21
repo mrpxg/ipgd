@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "144.31.200.207",
-      "server_port": 443,
+      "server": "109.107.155.76",
+      "server_port": 2053,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
@@ -20,7 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/code/directory/ads?ed=2560",
+        "path": "/tv/member/auth?ed=2560fp=chrome",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }

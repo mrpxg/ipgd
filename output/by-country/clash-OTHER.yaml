@@ -5,61 +5,50 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 188.114.97.6
+  server: 104.18.14.103
   port: 443
   udp: true
   type: vless
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: a.cwvps.eu.org
+  servername: server9.9966338.xyz
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws
+    path: /imnotarealherox
     headers:
-      Host: a.cwvps.eu.org
+      Host: server9.9966338.xyz
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 188.114.97.6
-  port: 443
+  server: 188.114.96.7
+  port: 8443
   udp: true
   type: vless
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  uuid: 362a79a2-ce89-8d2d-355c-f1f5071a445f
   tls: true
-  servername: cfvvv-ev1.pages.dev
+  servername: fragrant-unit-d662.mmammatrix770088.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: cfvvv-ev1.pages.dev
+      Host: fragrant-unit-d662.mmammatrix770088.workers.dev
 - name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 188.114.97.6
+  server: 172.67.176.60
   port: 443
   udp: true
   type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   tls: true
-  servername: xi.tbv.ccwu.cc
+  servername: 3-M19.SoUtH-afRIcA.CCwu.Cc
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🌐 其他地区 (Other) 04 - xiaohe
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  tls: true
-  servername: xi.tbv.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
+      Host: 3-m19.south-afriCa.Ccwu.Cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,7 +57,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - xiaohe
   - 🌐 其他地区 (Other) 02 - xiaohe
   - 🌐 其他地区 (Other) 03 - xiaohe
-  - 🌐 其他地区 (Other) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -77,6 +65,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 01 - xiaohe
   - 🌐 其他地区 (Other) 02 - xiaohe
   - 🌐 其他地区 (Other) 03 - xiaohe
-  - 🌐 其他地区 (Other) 04 - xiaohe
 rules:
 - MATCH,PROXIES

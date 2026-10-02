@@ -13,6 +13,14 @@ proxies:
   sni: fi01.clgate.network
   skip-cert-verify: true
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
+  server: 144.31.212.253
+  port: 443
+  udp: true
+  type: hysteria2
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  sni: vps155-edge.kermemehori.ru
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -24,27 +32,18 @@ proxies:
     short-id: d368b94e275ab080
   servername: www.google.com
   client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 146.185.143.174
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 170.168.4.52
   port: 443
   udp: true
   type: vless
-  uuid: 22fa3629-21b7-4904-b800-db850decb620
+  uuid: 4643976f-85fa-40cf-9e58-ea28b50f253b
+  flow: xtls-rprx-vision
   tls: true
-  servername: fin.vip98.cfd
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fin.vip98.cfd
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
-  server: 77.42.20.51
-  port: 1085
-  udp: true
-  type: vless
-  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+  reality-opts:
+    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
+  servername: finl11.ali-bard.online
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select

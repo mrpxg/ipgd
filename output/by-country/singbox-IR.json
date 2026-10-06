@@ -4,16 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe",
-      "server": "31.77.227.6",
-      "server_port": 52006,
-      "uuid": "bc659d88-a1e0-076c-a49a-7b51b26a7a7f",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "server": "167.82.76.7",
+      "server_port": 443,
+      "password": "mitivpn",
       "tls": {
         "enabled": true,
-        "server_name": "bigdick.gamegrow.ru",
+        "server_name": "ssl.fastly.com",
         "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net"
+        }
       }
     },
     {
@@ -21,14 +26,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

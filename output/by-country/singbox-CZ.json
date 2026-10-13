@@ -5,21 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "35.199.90.53",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "104.21.69.37",
       "server_port": 443,
-      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
+      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
-          "short_id": "b62a4da6cd1c4dd6"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/uWq9DFRgj8BwQiSXmZ46",
+        "headers": {
+          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
         }
       }
     },
@@ -28,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

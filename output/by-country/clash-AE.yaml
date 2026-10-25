@@ -23,22 +23,9 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 57.129.52.47
-  port: 52014
-  udp: true
-  type: vless
-  uuid: ecc4675b-1607-4699-8b20-23af97b671af
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
     headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+      Host: 185.253.116.33
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   server: 84.235.244.108
   port: 22573
   udp: true
@@ -49,7 +36,7 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -69,7 +56,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,6 +65,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 05 - xiaohe
 rules:
 - MATCH,PROXIES

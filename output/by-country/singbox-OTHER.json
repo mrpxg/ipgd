@@ -6,23 +6,23 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.10.153",
+      "server": "104.21.94.203",
       "server_port": 443,
-      "uuid": "debafe5b-6760-4b00-b0b2-ee30cbf769f0",
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
       "tls": {
         "enabled": true,
-        "server_name": "portland-wins-robbie-skirt.trycloudflare.com",
+        "server_name": "fr-free.fastestrelay.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "e0843c8ad581",
+        "path": "/700gvl",
         "headers": {
-          "Host": "portland-wins-robbie-skirt.trycloudflare.com"
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
